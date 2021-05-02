@@ -12,10 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Now we call the HomeFragment
+        setHomeFragment();
     }
 
     // Home fragment
-    
+
     void setHomeFragment(){
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment()).commit();
