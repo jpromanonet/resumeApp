@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorAccent"></color>
-    <color name="background_light">#</color>
+    <color name="colorAccent">#FF000000</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="icon_tint">#888787</color>
+    <color name="nav_selected_color">#FFC107</color>
 </resources>
